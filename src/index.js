@@ -1,3 +1,5 @@
+import "./style/index.scss"
+
 const callRoute = () => {
   const { hash } = window.location;
   const pathParts = hash.substring(1).split('/');

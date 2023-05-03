@@ -3,52 +3,48 @@
   padding: 0;
 }
 
-$color-red: rgb(32, 255, 20);
-
 p {
-  color: $color-red;
+  color: rgb(32, 255, 20);
   margin-right: 30px;
 }
 
 body {
-  font-family: 'Big Noodles';
-  background: url('../assets/images/cool_gaming_background_4k_by_skullbreaker000_dehn7hz-fullview.jpg') fixed;
+  font-family: "Big Noodles";
+  background: url("../assets/images/cool_gaming_background_4k_by_skullbreaker000_dehn7hz-fullview.jpg") fixed;
   background-size: cover;
 }
 
 @font-face {
-  font-family: 'Big Noodles';
-  src: url('../assets/fonts/big_noodle_titling.ttf');
+  font-family: "Big Noodles";
+  src: url("../assets/fonts/big_noodle_titling.ttf");
 }
-
 .game-img {
   width: 80%;
   height: 200px;
   border-radius: 10px;
   margin: 1%;
-  max-width: 500px
+  max-width: 500px;
 }
 
 h1 {
   color: rgb(52, 255, 2);
   align-items: center;
-  font-family: 'Big Noodles';
+  font-family: "Big Noodles";
 }
 
 h2 {
   color: rgb(52, 255, 2);
   align-items: center;
-  font-family: 'Big Noodles';
+  font-family: "Big Noodles";
 }
 
 a {
   color: rgb(52, 255, 2);
   align-items: center;
-  font-family: 'Big Noodles';
+  font-family: "Big Noodles";
 }
 
 .page-detail {
-
   padding-left: 20px;
   padding-bottom: 20px;
   border-radius: 10px;
@@ -65,7 +61,6 @@ a {
   max-width: 100px;
   height: 300px;
   width: 250px;
-  
 }
 
 nav {
@@ -83,8 +78,6 @@ nav {
   background-color: rgba(164, 2, 196, 0.342);
   border-radius: 10px;
 }
-
-
 
 .article .background_image {
   background-size: contain;
@@ -124,6 +117,5 @@ nav {
 }
 
 .page-list {
-margin-left: 50px;
-}
-
+  margin-left: 50px;
+}/*# sourceMappingURL=index.css.map */

@@ -1,15 +1,124 @@
 /*!*************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style/index.scss ***!
   \*************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
 p {
-  color: rgb(255, 20, 20);
+  color: rgb(32, 255, 20);
+  margin-right: 30px;
 }
 
 body {
   font-family: "Big Noodles";
+  background: url(0bcb4b19c406a584323f.jpg) fixed;
+  background-size: cover;
 }
 
 @font-face {
   font-family: "Big Noodles";
   src: url(e2ebffa44fbb63381589.ttf);
+}
+.game-img {
+  width: 80%;
+  height: 200px;
+  border-radius: 10px;
+  margin: 1%;
+  max-width: 500px;
+}
+
+h1 {
+  color: rgb(52, 255, 2);
+  align-items: center;
+  font-family: "Big Noodles";
+}
+
+h2 {
+  color: rgb(52, 255, 2);
+  align-items: center;
+  font-family: "Big Noodles";
+}
+
+a {
+  color: rgb(52, 255, 2);
+  align-items: center;
+  font-family: "Big Noodles";
+}
+
+.page-detail {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.cardGame {
+  justify-content: space-between;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  max-width: 100px;
+  height: 300px;
+  width: 250px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(164, 2, 196, 0.342);
+  border-radius: 10px;
+}
+
+.article .background_image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 550px;
+  height: auto;
+  margin-top: 140px;
+}
+
+.video {
+  margin-top: 20px;
+}
+
+.article {
+  display: flex;
+}
+
+.left-column {
+  flex: 1;
+  width: 300px;
+}
+
+.right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.right-column img {
+  width: 400px;
+}
+
+.video {
+  margin-top: 1rem;
+}
+
+.page-list {
+  margin-left: 50px;
 }

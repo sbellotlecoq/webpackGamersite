@@ -7,18 +7,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- CSS de Bootstrap -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     <title>Document</title>
 </head>
 <body>
-    <a href="#">Home</a>
-    <a href="#pagelist">PageList</a>
-    <a href="#pagelist/borderlands">PageList borderlands</a>
 
-    <section id="pageContent">Choisissez un lien</section>
-    
+    <nav class="navbar navbar-light bg-dark">
+        <div class="container-fluid">
+          <a href="#">Home</a>
+          <a href="#pagelist">PageList</a>
+          <a href="#pagelist/borderlands">PageList borderlands</a>
+
+          <form id="search-form" class="d-flex">
+            <label for="search-input"></label>
+            <input class="form-control mr-sm-2" input type="text" id="search-input" name="search" placeholder="Enter keywords...">
+            
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go</button>
+        </form>
+        </div>
+      </nav>
+
+    <div class="container" id="pageContent">
+    <h2>Choisissez un lien</h2>
+    </div>
+
+            <ul id="results"></ul>
+     
         <!-- En bas du <body> -->
             <script src="./src/Home.js"></script>
             <script src="./src/PageList.js"></script>
